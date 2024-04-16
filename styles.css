@@ -1,0 +1,201 @@
+header {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(to bottom left, #e9e9e9, #64eaff, #52c1d2);
+  }
+
+  #inicio {
+    background-image: linear-gradient(to bottom, #e9e9e9, #64eaff);
+  }
+  .featured-content {
+    background-image: linear-gradient(to top, #e9e9e9, #64eaff);
+  }
+.btn-wpp {
+    background-color: #25d366; /* Color verde de WhatsApp */
+    color: #fff; /* Color de texto blanco */
+    padding: 10px 20px; /* Ajusta el espaciado interno del botón según sea necesario */
+    border-radius: 5px; /* Borde redondeado */
+    text-decoration: none; /* Elimina subrayado */
+}
+
+.btn-wpp:hover {
+    background-color: #128c7e; /* Color de fondo más oscuro al pasar el cursor */
+    transition: background-color 0.3s ease-in-out; /* Transición suave */
+}
+
+.btn-wpp img {
+    width: 45px; /* Ajusta el tamaño del icono según sea necesario */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+/* Acerca De */
+
+#acerca-de {
+    background-image: linear-gradient(to bottom, #e9e9e9, #64eaff);
+    padding: 80px 0;
+    text-align: center;
+}
+
+#acerca-de h2 {
+    margin-bottom: 20px;
+}
+
+.quienes-somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen-sinah {
+    margin-bottom: 20px;
+}
+
+.imagen-sinah img {
+    width: 250px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+.texto-sinah {
+    max-width: 600px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.texto-sinah h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.texto-sinah p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Habilidades */
+
+#servicios {
+    background-image: linear-gradient(to top, #e9e9e9, #64eaff);
+    padding: 80px 0;
+}
+
+#servicios h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.servicio {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+@media screen and (max-width: 685px) {
+    .servicios {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .servicios {
+        font-size: 10px;
+    }
+}
+
+@keyframes moverArribaAbajo {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.servicio h3 {
+    margin-bottom: 10px;
+}
+
+.servicios p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Clientes Satisfechos */
+
+#clientes-satis {
+    background-image: linear-gradient(to bottom, #e9e9e9, #64eaff);
+    padding: 80px 0;
+    text-align: center;
+}
+
+#clientes-satis h2 {
+    margin-bottom: 20px;
+}
+
+/* Contacto */
+
+#contacto {
+    background-image: linear-gradient(to top, #e9e9e9, #64eaff);
+    padding: 80px 0;
+    text-align: center;
+}
+
+#contacto h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+#contacto ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contacto li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+#contacto li i {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+/* Enlaces de contacto */
+#contacto li a {
+    text-decoration: none;
+}
+
+/* WhatsApp */
+
+a[href^="https://api.whatsapp.com"] {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    background-color: #25d366;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+a[href^="https://api.whatsapp.com"] img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+a[href^="https://api.whatsapp.com"] span {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+

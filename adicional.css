@@ -1,0 +1,47 @@
+/* Tarot */
+
+.contenido-adicional-tarot {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.contenido-adicional-tarot.visible {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in;
+}
+
+
+/* Flecha */
+
+.ver-mas-btn.active+.contenido-adicional-tarot {
+    display: block;
+}
+
+
+.ver-mas-btn.active .ver-mas-label {
+    transform: rotate(180deg);
+    margin-top: 10px;
+}
+
+/* Sanación */
+
+.contenido-adicional-sanacion {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.contenido-adicional-sanacion.visible {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in;
+}
+
+.ver-mas-btn.active+.contenido-adicional-sanacion {
+    display: block;
+}
+
+.ver-mas-btn.active .ver-mas-label {
+    transform: rotate(180deg);
+    margin-top: 10px;
+}
